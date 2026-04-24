@@ -16,7 +16,7 @@ if %errorlevel% neq 0 (
 
 echo [1/3] Checking and installing dependencies (Pygame)...
 python -m pip install --upgrade pip >nul
-python -m pip install pygame
+python -m pip install pygame-ce
 if %errorlevel% neq 0 (
     echo [ERROR] Failed to install Pygame. Please check your internet connection.
     pause
